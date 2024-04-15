@@ -1,6 +1,6 @@
 ![Logo](public/img/brand-logo-new-3.JPG)
 
-# Pojok Lelang
+# Ci Lelang
 
 Ci Lelang merupakan website lelang online yang memungkinkan para penggemar menawar barang untuk dikoleksi.
 
