@@ -8,12 +8,12 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-5 col-md-6 d-flex flex-column align-items-center justify-content-center">
                         <div class="d-flex justify-content-center py-4"> <a href="{{ url('/') }}" class="logo d-flex align-items-center w-auto"> 
-                            <img src="img/brand-logo-new-2.png" alt="Pojok Lelang logo"> 
-                            <span class="d-none d-lg-block">Pojok lelang</span> </a></div>
+                            <img src="img/brand-logo-new-2.png" alt="Ci Lelang logo"> 
+                            <span class="d-none d-lg-block">Ci lelang</span> </a></div>
                         <div class="card mb-3">
                         <div class="card-body">
                             <div class="pt-4 pb-2">
-                                <h5 class="card-title text-center pb-0 fs-4">Buat Akun Pojok lelang</h5>
+                                <h5 class="card-title text-center pb-0 fs-4">Buat Akun Ci lelang</h5>
                                 <p class="text-center small">Masukkan detail pribadi untuk membuat akun</p>
                             </div>
                             <form action="{{ url('/register/auth') }}" method="post" class="row g-3 needs-validation" novalidate>

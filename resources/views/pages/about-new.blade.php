@@ -17,13 +17,13 @@
                     <div class="card mb-3">
                         <div class="row g-0 mx-3 my-3">
                             <div class="col-md-4">
-                                <img src="/img/brand-logo-new.png" style="height:300px;" class="img-fluid rounded-start mx-auto" alt="Pojok lelang Logo">
+                                <img src="/img/brand-logo-new.png" style="height:300px;" class="img-fluid rounded-start mx-auto" alt="Ci lelang Logo">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h4 style="color: #055E68" class="mt-5">Pojok Lelang</h4>
+                                    <h4 style="color: #055E68" class="mt-5">Ci Lelang</h4>
                                     <h6>A Real-time Auction Site for Everyone.</h6>
-                                    <p class="card-text mt-4">Pojok Lelang merupakan website lelang online yang ideal bagi
+                                    <p class="card-text mt-4">Ci Lelang merupakan website lelang online yang ideal bagi
                                         semua orang untuk menemukan barang-barang
                                         impian mereka dengan mudah, aman, dan efisien.
                                     </p>
@@ -83,7 +83,7 @@
                                 <h4 style="color: #055E68" class="card-title text-center mb-3">Ikuti Kami</h4>
                                 <div class="row">
                                     <div class="col-lg-3 col-sm-6">
-                                        <a href="https://github.com/r-aozora/Pojok-Lelang" target="blank_">
+                                        <a href="https://github.com/goziyyy" target="blank_">
                                             <div class="info-box card">
                                                 <i style="color: #171515" class="bi bi-github mb-0"></i>
                                                 <h3>GitHub</h3>

@@ -10,7 +10,7 @@
                         <div class="d-flex justify-content-center py-4"> 
                             <a href="{{ url('/') }}" class="logo d-flex align-items-center w-auto"> 
                             <img src="img/brand-logo-new-2.png" alt=""> 
-                            <span class="d-none d-lg-block">Pojok Lelang</span> 
+                            <span class="d-none d-lg-block">Ci Lelang</span> 
                             </a>
                         </div>
                         <div class="card mb-3">
@@ -44,10 +44,10 @@
                                         <div class="invalid-feedback">Silakan pilih level Anda.</div>
                                     </div>
                                     <div class="col-12"> 
-                                        <button class="btn text-white w-100" type="submit" style="background-color: #055E68;border-radius:15px">Buat Akun</button>
+                                        <button class="btn text-white w-100" type="submit" style="background-color: #A0D8B3;border-radius:15px">Buat Akun</button>
                                     </div>
                                     <div class="col-12">
-                                        <p class="text-center small mb-0">Sudah punya akun? <a href="{{ url('/login') }}">Log In</a></p>
+                                        <p class="text-center small mb-0">Sudah punya akun? <a href="{{ url('/login') }}">Log In</a></p> 
                                     </div>
                                 </form>
                             </div>

@@ -29,7 +29,7 @@ class LaporanController extends Controller
 
         return view('laporan.index')->with([
             'lelang' => $lelang,
-            'title' => 'Pojok Lelang | Laporan Lelang',
+            'title' => 'Ci Lelang | Laporan Lelang',
         ]);
     }
 
@@ -55,7 +55,7 @@ class LaporanController extends Controller
 
         return view('laporan.print')->with([
             'lelang' => $lelang,
-            'title' => 'Pojok Lelang | Laporan Lelang',
+            'title' => 'Ci Lelang | Laporan Lelang',
         ]);
     }
 }

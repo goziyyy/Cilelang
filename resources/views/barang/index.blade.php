@@ -29,7 +29,7 @@
                                         </div>
                                     </div>
                                 <div class="text-end col-6">
-                                    <a href="{{ url('barang/create') }}" type="button" class="btn btn-sm text-white" style="background-color: #055E68; border-radius:20px">
+                                    <a href="{{ url('barang/create') }}" type="button" class="btn btn-sm text-white" style="background-color: #A0D8B3; border-radius:20px">
                                         <i class="bi bi-plus"></i> Tambah Data
                                     </a>
                                 </div>
@@ -51,11 +51,11 @@
                                             <td>{{ $item->created_at }}</a></td>
                                             <td>Rp. {{ $item->harga_awal }}</a></td>
                                             <td>
-                                                <a href="{{ url('barang/'.$item->id.'/edit') }}" class="btn btn-sm text-white" style="background-color: #055E68; border-radius: 20px"><i class="bi bi-pencil-square"></i></a>
+                                                <a href="{{ url('barang/'.$item->id.'/edit') }}" class="btn btn-sm text-white" style="background-color: #A0D8B3; border-radius: 20px"><i class="bi bi-pencil-square"></i></a>
                                                 <form onsubmit="return confirm('Data Akan Dihapus')" action="{{ url('barang/'.$item->id) }}" method="post" class="d-inline">
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-sm text-white" style="background-color: #055E68; border-radius: 20px" role="button"><i class="bi bi-trash"></i></button>
+                                                    <button type="submit" class="btn btn-sm text-white" style="background-color: #A0D8B3; border-radius: 20px" role="button"><i class="bi bi-trash"></i></button>
                                                 </form>
                                             </td>
                                         </tr>

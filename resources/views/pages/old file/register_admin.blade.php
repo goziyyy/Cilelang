@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pojok Lelang - Daftar</title>
+    <title>Ci Lelang - Daftar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +35,7 @@
                 <div class="card text-black" style="border-radius: 20px">
                     <div class="row g-0">
                         <div class="col-sm-6 px-0 d-none d-sm-block">
-                            <img src="../img/brand-logo-new.png" alt="Pojok Lelang Logo" class="w-100" style="height:100%;background-size:cover;border-radius:20px ">
+                            <img src="../img/brand-logo-new.png" alt="Ci Lelang Logo" class="w-100" style="height:100%;background-size:cover;border-radius:20px ">
                         </div>
                         <div class="col-lg-6">
                             <div class="card-body p-md-4" style="border-radius: 20px">

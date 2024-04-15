@@ -35,7 +35,7 @@ class MasyarakatController extends Controller
 
         return view('masyarakat.index')->with([
             'masyarakat' => $masyarakat,
-            'title' => 'Pojok Lelang | Data Masyarakat',
+            'title' => 'Ci Lelang | Data Masyarakat',
         ]);
     }
 
@@ -47,7 +47,7 @@ class MasyarakatController extends Controller
     public function create()
     {
         return view('masyarakat.create')->with([
-            'title' => 'Pojok Lelang | Tambah Data',
+            'title' => 'Ci Lelang | Tambah Data',
         ]);
     }
 
@@ -92,20 +92,18 @@ class MasyarakatController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-    {
-        $masyarakat = User::where('id', $id)->first();
+{
+    $masyarakat = User::where('id', $id)->first();
 
-        $getTelepon = Masyarakat::select('telepon')->where('id_user', $id)->get();
+    $telepon = Masyarakat::where('id_user', $id)->value('telepon');
 
-        foreach ($getTelepon as $get)
-        $telepon = $get->telepon;
+    return view('masyarakat.detail')->with([
+        'masyarakat' => $masyarakat,
+        'telepon' => $telepon,
+        'title' => 'Ci Lelang | Detail Masyarakat',
+    ]);
+}
 
-        return view('masyarakat.detail')->with([
-            'masyarakat' => $masyarakat,
-            'telepon' => $telepon,
-            'title' => 'Pojok Lelang | Detail Masyarakat',
-        ]);
-    }
 
     /**
      * Show the form for editing the specified resource.
@@ -119,7 +117,7 @@ class MasyarakatController extends Controller
 
         return view('masyarakat.edit')->with([
             'masyarakat' => $masyarakat,
-            'title' => 'Pojok Lelang | Edit Data'
+            'title' => 'Ci Lelang | Edit Data'
         ]);
     }
 

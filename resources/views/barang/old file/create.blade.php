@@ -39,7 +39,7 @@
                                     </div>
                                     <div>
                                         <a href="{{ url('barang') }}" type="button" class="btn btn-outline"><i class="bi bi-arrow-left"></i> Kembali</a>
-                                        <button type="submit" class="btn text-white" style="background-color:#055E68"><i class="bi bi-box-arrow-in-down"></i> Simpan</button>
+                                        <button type="submit" class="btn text-white" style="background-color:#A0D8B3><i class="bi bi-box-arrow-in-down"></i> Simpan</button>
                                     </div>
                                 </form>
                             </div>

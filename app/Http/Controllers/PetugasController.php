@@ -30,7 +30,7 @@ class petugasController extends Controller
 
         return view('petugas.index')->with([
             'petugas' => $petugas,
-            'title' => 'Pojok Lelang | Data Petugas',
+            'title' => 'Ci Lelang | Data Petugas',
         ]);
     }
     /**
@@ -41,7 +41,7 @@ class petugasController extends Controller
     public function create()
     {
         return view('petugas.create')->with([
-            'title' => 'Pojok Lelang | Tambah Data',
+            'title' => 'Ci Lelang | Tambah Data',
         ]);
     }
 
@@ -89,7 +89,7 @@ class petugasController extends Controller
         $petugas = User::where('id', $id)->first();
         return view('petugas.detail')->with([
             'petugas' => $petugas,
-            'title' => 'Pojok Lelang | Detail Petugas',
+            'title' => 'Ci Lelang | Detail Petugas',
         ]);
     }
 
@@ -105,7 +105,7 @@ class petugasController extends Controller
 
         return view('petugas.edit')->with([
             'petugas' => $petugas,
-            'title' => 'Pojok Lelang | Edit Data'
+            'title' => 'Ci Lelang | Edit Data'
         ]);
     }
 

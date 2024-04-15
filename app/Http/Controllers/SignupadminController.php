@@ -13,7 +13,7 @@ class SignupadminController extends Controller
     function register()
     {
         return view('pages.register-admin-new', [
-            'title' => 'Pojok Lelang | Register Admin'
+            'title' => 'Ci Lelang | Register Admin'
         ]);
     }
 

@@ -7,7 +7,7 @@
             <div class="col">
                 <div class="card mt-3 mb-3">
                     <div class="card-body">
-                        <div class="card-header mb-3" style="background-color:#055E68; max-height:60px">
+                        <div class="card-header mb-3" style="background-color:#A0D8B3; max-height:60px">
                             <h5 class="card-title mt-2 fw-medium text-light">{{ $barang->nama_barang }}</h5>
                         </div>
                         <div class="row">
@@ -39,11 +39,11 @@
                                     </div>
                                     <div>
                                         <a href="{{ url('barang') }}"  class="btn btn-outline"><i class="bi bi-arrow-left"></i> Kembali</a>
-                                        <a href="{{ url('barang/'.$barang->id_barang.'/edit') }}" class="btn text-white" style="background-color: #055E68"><i class="bi bi-pencil-square"></i> Edit</a>
+                                        <a href="{{ url('barang/'.$barang->id_barang.'/edit') }}" class="btn text-white" style="background-color: #A0D8B3"><i class="bi bi-pencil-square"></i> Edit</a>
                                         <form onsubmit="return confirm('Data Akan Dihapus')" action="{{ url('barang/'.$barang->id_barang) }}" method="post">
                                             @csrf
                                             @method('DELETE')
-                                            <button type="submit" class="btn text-white" style="background-color: #055E68" role="button"><i class="bi bi-trash"></i> Hapus</button>
+                                            <button type="submit" class="btn text-white" style="background-color: #A0D8B3" role="button"><i class="bi bi-trash"></i> Hapus</button>
                                         </form>
                                     </div>
                                 </form>

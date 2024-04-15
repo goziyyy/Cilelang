@@ -18,16 +18,16 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         DB::table('users')->insert([
             'id'=>'1',
-            'nama'=>'Admin Pojok Lelang',
-            'username'=>'pojoklelangadmin',
+            'nama'=>'Admin',
+            'username'=>'ciadmin',
             'password'=>Hash::make('password'),
             'level'=>'Administrator',
             'created_at'=>date('Y-m-d H:i:s')
         ]);
         DB::table('users')->insert([
             'id'=>'2',
-            'nama'=>'Petugas Pojok Lelang',
-            'username'=>'pojoklelangpetugas',
+            'nama'=>'Petugas',
+            'username'=>'cipetugas',
             'password'=>Hash::make('password'),
             'level'=>'Petugas',
             'created_at'=>date('Y-m-d H:i:s')

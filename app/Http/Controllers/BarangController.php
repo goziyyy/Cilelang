@@ -28,7 +28,7 @@ class BarangController extends Controller
         }
         return view('barang.index')->with([
             'barang' => $barang,
-            'title' => 'Pojok Lelang | Data Barang',
+            'title' => 'Ci Lelang | Data Barang',
         ]);
     }
 
@@ -40,7 +40,7 @@ class BarangController extends Controller
     public function create()
     {
         return view('barang.create')->with([
-            'title' => 'Pojok Lelang | Tambah Data Barang',
+            'title' => 'Ci Lelang | Tambah Data Barang',
         ]);
     }
 
@@ -93,7 +93,7 @@ class BarangController extends Controller
 
         return view('barang.detail')->with([
             'barang' => $barang,
-            'title' => 'Pojok Lelang | Detail Barang',
+            'title' => 'Ci Lelang | Detail Barang',
         ]);
     }
 
@@ -109,7 +109,7 @@ class BarangController extends Controller
 
         return view('barang.edit')->with([
             'barang' => $barang,
-            'title' => 'Pojok Lelang | Edit Data Barang'
+            'title' => 'Ci Lelang | Edit Data Barang'
         ]);
     }
 

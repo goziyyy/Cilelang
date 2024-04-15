@@ -7,7 +7,7 @@
             <div class="col">
                 <div class="card mt-3 mb-3">
                     <div class="card-body">
-                        <div class="card-header" style="background-color:#055E68; max-height:60px">
+                        <div class="card-header" style="background-color:#A0D8B3 max-height:60px">
                             <h5 class="card-title mt-2 fw-medium text-light">Data Barang</h5>
                         </div>                        
                         <div class=" d-flex flex-wrap justify-content-center mt-3">
@@ -15,12 +15,12 @@
                                 <div class="col-sm-6">
                                     <form action="{{ url('barang') }}" method="get" class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
                                         <input type="search" class="form-control form-control-sm me-1" name="katakunci" value="{{ Request::get('katakunci') }}" placeholder="Search..." aria-label="Search">
-                                        <button class="btn" type="submit" style="color:#055E68"><i class="bi bi-magnifying-glass"></i></button>
+                                        <button class="btn" type="submit" style="color:#A0D8B3"><i class="bi bi-magnifying-glass"></i></button>
                                     </form>
                                 </div>
                             </div>
                         <div class="text-end col-6 col-lg-6 me-lg-auto">
-                            <a href="{{ url('barang/create') }}" type="button" class="btn btn-sm text-white" style="background-color: #055E68">
+                            <a href="{{ url('barang/create') }}" type="button" class="btn btn-sm text-white" style="background-color: #A0D8B3">
                                 <i class="bi bi-plus"></i> Tambah Data
                             </a>
                         </div>
@@ -42,7 +42,7 @@
                                     <td>{{ $item->create_at }}</td>
                                     <td>{{ $item->harga_awal }}</td>
                                     <td>
-                                        <button type="button" class="btn btn-sm text-white dropdown-toggle" style="background-color:#055E68" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+                                        <button type="button" class="btn btn-sm text-white dropdown-toggle" style="background-color:#A0D8B3" data-bs-toggle="dropdown" aria-expanded="false" role="button">
                                             <i class="bi bi-gear"></i> Aksi
                                         </button>
                                         <ul class="dropdown-menu">
@@ -67,7 +67,7 @@
                         </table>
                         {{ $barang->withQueryString()->links() }}
                         <div class="pt-3">
-                            <a href="{{ url('profile') }}" class="btn" style="color:#055E68">
+                            <a href="{{ url('profile') }}" class="btn" style="color:#A0D8B3">
                                 <i class="bi bi-arrow-left"></i> Kembali
                             </a>
                         </div>

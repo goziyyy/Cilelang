@@ -53,11 +53,11 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <a href="{{ url('barang/'.$barang->id.'/edit') }}" class="btn btn-sm text-white" style="background-color:#055E68; border-radius:20px"><i class="bi bi-pencil-square"></i> Edit</a>
+                                <a href="{{ url('barang/'.$barang->id.'/edit') }}" class="btn btn-sm text-white" style="background-color:#A0D8B3 border-radius:20px"><i class="bi bi-pencil-square"></i> Edit</a>
                                 <form onsubmit="return confirm('Data Akan Dihapus')" action="{{ url('barang/'.$barang->id) }}" method="post" class="d-inline">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-sm text-white" style="background-color:#055E68; border-radius:20px" role="button"><i class="bi bi-trash"></i> Hapus</button>
+                                    <button type="submit" class="btn btn-sm text-white" style="background-color:#A0D8B3; border-radius:20px" role="button"><i class="bi bi-trash"></i> Hapus</button>
                                 </form>
                             </div>
                         </div>

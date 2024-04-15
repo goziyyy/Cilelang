@@ -64,7 +64,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center"> 
-                                    <button type="submit" class="btn btn-sm text-white" style="background-color:#055E68; border-radius:20px"><i class="bi bi-box-arrow-in-down"></i> Simpan</button>
+                                    <button type="submit" class="btn btn-sm text-white" style="background-color:#A0D8B3 border-radius:20px"><i class="bi bi-box-arrow-in-down"></i> Simpan</button>
                                 </div>
                             </form>
                         </div>

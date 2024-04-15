@@ -13,7 +13,7 @@
               <div class="col-md-8 my-auto ">
                 <div class="card-body">
                   <h4 class="card-title">A Real-time Auction Site for Everyone.</h4><br>
-                  <p class="card-text" style="font-size: 18px">Pojok Lelang - website lelang online yang ideal bagi
+                  <p class="card-text" style="font-size: 18px">Ci Lelang - website lelang online yang ideal bagi
                     semua orang untuk menemukan barang-barang
                     impian mereka dengan mudah, aman, dan efisien.</p><br>
                   <p class="card-text" style="font-size: 18px">Motto Kami: Everyone Can Bid.</p>

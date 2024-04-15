@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="tab-pane fade profile-menu" id="profile-menu">
                                     <h5 class="card-title">Menu Anda</h5>
-                                    <p>Pilih menu untuk mengelola Pojok Lelang</p>
+                                    <p>Pilih menu untuk mengelola Ci Lelang</p>
                                     <section class="section contact">
                                         <div class="row gy-4">
                                             <div class="col-xl-12">
