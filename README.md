@@ -2,7 +2,7 @@
 
 # Pojok Lelang
 
-Pojok Lelang merupakan website lelang online yang memungkinkan para penggemar menawar barang untuk dikoleksi.
+Ci Lelang merupakan website lelang online yang memungkinkan para penggemar menawar barang untuk dikoleksi.
 
 ## Screenshots
 
@@ -23,13 +23,13 @@ Pojok Lelang merupakan website lelang online yang memungkinkan para penggemar me
 Clone the project
 
 ```bash
-  git clone https://github.com/r-aozora/Pojok-Lelang.git
+  git clone https://github.com/goziyyy/lelang.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Pojok-Lelang
+  cd Cilang
 ```
 
 Install dependencies
@@ -47,7 +47,7 @@ Copy .env.example file
 Create database and connect in .env file
 
 ```bash
-  DB_DATABASE=pojok_lelang
+  DB_DATABASE=cilang
 ```
 
 Run migration
@@ -65,6 +65,5 @@ Start the server
 
 ## Authors
 
-- [@r-aozora](https://github.com/r-aozora)
-- [@codezeros18](https://github.com/codezeros18)
-- [@cykmila](https://github.com/cykmila)
+- [@goziyyy](https://github.com/goziyyy)
+
