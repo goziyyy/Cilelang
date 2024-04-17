@@ -22,12 +22,12 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h4 style="color: #055E68" class="mt-5">Ci Lelang</h4>
-                                    <h6>A Real-time Auction Site for Everyone.</h6>
+                                    <h6>A Real-time Fair Auction Site for Everyone.</h6>
                                     <p class="card-text mt-4">Ci Lelang merupakan website lelang online yang ideal bagi
                                         semua orang untuk menemukan barang-barang
                                         impian mereka dengan mudah, aman, dan efisien.
                                     </p>
-                                    <p class="card-text">Motto Kami: Everyone Can Bid.</p>
+                                    <p class="card-text">Masyarakat/User daoat mengajukan pelelangan barang kepada CS dengan cara menghubungi CS melalui Whatsapp dibawah.</p>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                                 <h4 style="color: #055E68" class="card-title text-center mb-3">Hubungi Kami</h4>
                                 <div class="row">
                                     <div class="col-lg-3 col-sm-6">
-                                        <a href="https://wa.me/+6289513886227" target="blank_">
+                                        <a href="https://wa.me/+6281219769477" target="blank_">
                                             <div class="info-box card">
                                                 <i style="color: #128C7E" class="bi bi-whatsapp"></i>
                                                 <h3>WhatsApp</h3>
@@ -110,7 +110,7 @@
                                         <a href="" target="blank_">
                                             <div class="info-box card">
                                                 <i class="bi bi-twitter"></i>
-                                                <h3>Twitter</h3>
+                                                <h3>X</h3>
                                             </div>
                                         </a>
                                     </div>
