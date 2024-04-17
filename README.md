@@ -1,4 +1,4 @@
-![Logo](public/img/brand-logo-new-3.JPG)
+![Logo](public/img/brand-logo-new-3.jpg)
 
 # Ci Lelang
 
