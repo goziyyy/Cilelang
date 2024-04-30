@@ -33,7 +33,7 @@ class PagesController extends Controller
                 })
                 ->first();
     
-            $product2 = Lelang::where('lelang.id', '5')
+            $product2 = Lelang::where('lelang.id', '2')
                 ->join('barang', 'barang.id', '=', 'lelang.id_barang')
                 // ->leftJoin('history', 'history.id_lelang', '=', 'lelang.id')
                 ->leftJoin('history', function ($join) {
