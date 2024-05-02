@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
 
 class Lelang extends Model
 {
@@ -15,6 +16,9 @@ class Lelang extends Model
         'id',
         'id_barang',
         'id_petugas',
+        'id_masyarakat',
+        'harga_akhir',
+        'status',
     ];
 
     protected $attributes = [

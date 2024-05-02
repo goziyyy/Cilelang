@@ -150,7 +150,7 @@
                                 </div>
                                 <div class="tab-pane fade profile-menu" id="profile-history">
                                     <h5 class="card-title">Histori Lelang</h5>
-                                    <p>Berikut adalah history lelang Anda. Anda bisa mengikuti lelang lainnya di <a href="{{ url('/galery') }}">Galery Lelang</a>.</p>
+                                    <p>Berikut adalah history lelang Anda. Anda bisa mengikuti lelang lainnya di <a href="{{ url('/gallery') }}">Galery Lelang</a>.</p>
                                     <table class="table table-bordered">
                                         <thead>
                                             <tr>

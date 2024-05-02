@@ -55,4 +55,5 @@ Route::resource('/petugas', PetugasController::class)->middleware('User');
 Route::resource('/masyarakat', MasyarakatController::class)->middleware('User');
 Route::resource('/barang', BarangController::class)->middleware('User');
 Route::resource('/lelang', LelangController::class)->middleware('User');
+Route::post('/galery/{id_lelang}', 'GaleryController@store')->name('gallery.store');
 Route::resource('/gallery', GaleryController::class);

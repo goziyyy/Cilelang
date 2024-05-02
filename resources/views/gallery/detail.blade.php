@@ -73,7 +73,7 @@
                                 <div class="tab-pane fade profile-menu" id="profile-bid">
                                     <h5 class="card-title">Form Penawaran</h5>
                                     <p>Masukkan harga Anda untuk memenangkan lelang</p>
-                                    <form action="{{ url('/gallery') }}" method="post">
+                                    <form action="{{ route('gallery.store', ['id_lelang' => $lelang->id]) }}" method="post" id="formPenawaran" data-harga-awal="{{ $lelang->harga_awal }}">
                                         @csrf
                                         <input name="id_lelang" type="hidden" class="form-control" id="id_lelang" value="{{ $lelang->id }}">
                                         <input name="id_barang" type="hidden" class="form-control" id="id_barang" value="{{ $lelang->id_barang }}">
@@ -85,6 +85,17 @@
                                                 <div class="invalid-feedback"> Masukkan harga yang valid</div>
                                             </div>
                                         </div>
+                                        <script>
+                                            document.getElementById('formPenawaran').addEventListener('submit', function(event) {
+                                                var hargaAwal = parseInt(this.getAttribute('data-harga-awal'), 10);
+                                                var penawaranHarga = parseInt(document.getElementById('penawaran_harga').value, 10);
+                                            
+                                                if (penawaranHarga < hargaAwal) {
+                                                    event.preventDefault(); // Menghentikan form dari submit
+                                                    alert('Harga harus diatas nominal harga awal');
+                                                }
+                                            });
+                                            </script>
                                         <div class="text-center">
                                             <button type="submit" class="btn btn-sm text-white" style="background-color: #055E68; border-radius: 15px">Tawar</button>
                                         </div>
